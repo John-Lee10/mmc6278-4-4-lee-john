@@ -5,7 +5,7 @@ USE music_db;
 CREATE TABLE artists (
   id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
 -- create a "name" column that's a varchar of max 100 characters
-  name VARCHAR(100),
+  name VARCHAR(100)
 );
 
 CREATE TABLE albums (
